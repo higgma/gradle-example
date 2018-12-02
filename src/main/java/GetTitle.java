@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * A simple example, used on the jsoup website.
  */
-public class Wikipedia {
+public class GetTitle {
     public static void main(String[] args) throws IOException {
         Document doc = Jsoup.connect("http://hig.hatenablog.com/").get();
         System.out.println(doc.title());
